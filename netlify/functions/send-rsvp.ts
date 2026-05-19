@@ -31,22 +31,10 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <img src="https://joke-grado.netlify.app/assets/cap-gold-96o5taoL.png" width="56" height="46" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
+            <img src="https://joke-grado.netlify.app/assets/cap-gold-96o5taoL.png" width="75" height="60" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Graduación · 29 Mayo 2026</div>
-          <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
-            <tr>
-              <td style="padding-right:10px;vertical-align:middle;">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="11" stroke="#c9a84c" stroke-width="1.5"/>
-                  <path d="M7 12.5l3.5 3.5 6.5-7" stroke="#e8c96a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </td>
-              <td style="vertical-align:middle;">
-                <span style="font-size:28px;font-weight:700;letter-spacing:5px;color:#e8c96a;font-family:'Georgia',serif;">CONFIRMADO</span>
-              </td>
-            </tr>
-          </table>
+          <div style="font-size:28px;font-weight:700;letter-spacing:5px;color:#e8c96a;font-family:'Georgia',serif;text-align:center;margin-bottom:6px;">CONFIRMADO</div>
           <div style="width:80px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:22px auto 0;"></div>
         </td></tr>
         <tr><td style="padding:32px 44px;">
@@ -110,22 +98,10 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <img src="https://joke-grado.netlify.app/assets/cap-gold-96o5taoL.png" width="56" height="46" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
+            <img src="https://joke-grado.netlify.app/assets/cap-gold-96o5taoL.png" width="75" height="60" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Notificación · Admin</div>
-          <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
-            <tr>
-              <td style="padding-right:10px;vertical-align:middle;">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="12" cy="12" r="11" stroke="#c9a84c" stroke-width="1.5"/>
-                  <path d="M7 12.5l3.5 3.5 6.5-7" stroke="#e8c96a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </td>
-              <td style="vertical-align:middle;">
-                <span style="font-size:26px;font-weight:700;letter-spacing:5px;color:#e8c96a;font-family:'Georgia',serif;">NUEVA RSVP</span>
-              </td>
-            </tr>
-          </table>
+          <div style="font-size:26px;font-weight:700;letter-spacing:5px;color:#e8c96a;font-family:'Georgia',serif;text-align:center;margin-bottom:6px;">NUEVA RSVP</div>
           <div style="width:80px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:22px auto 0;"></div>
         </td></tr>
         <tr><td style="padding:32px 44px;">
