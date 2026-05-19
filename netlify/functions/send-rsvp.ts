@@ -31,7 +31,7 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <img src="https://josegrado.online/cap-gold.png?v=3" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
+            <img src="https://joke-grado.netlify.app/assets/cap-gold-96o5taoL.png" width="56" height="46" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Graduación · 29 Mayo 2026</div>
           <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
@@ -50,9 +50,9 @@ export const handler = async (event: any) => {
           <div style="width:80px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:22px auto 0;"></div>
         </td></tr>
         <tr><td style="padding:32px 44px;">
-          <p style="color:#c9a84c;font-size:10px;letter-spacing:5px;text-transform:uppercase;margin:0 0 6px;">Hola ${fullName}</p>
-          <p style="color:#f0e6c8;font-size:26px;margin:0 0 8px;font-style:italic;font-weight:400;">Tu asistencia ha sido registrada</p>
-          <p style="color:#8a7030;font-size:14px;line-height:1.8;margin:0 0 28px;font-family:'Georgia',serif;">Nos alegra mucho que nos acompañes en este día tan especial. Aquí tienes los detalles del evento:</p>
+          <p style="color:#c9a84c;font-size:10px;letter-spacing:5px;text-transform:uppercase;margin:0 0 14px;">Hola ${fullName}</p>
+          <p style="color:#f0e6c8;font-size:28px;margin:0 0 14px;font-style:italic;font-weight:400;">Tu asistencia ha sido registrada</p>
+          <p style="color:#8a7030;font-size:15px;line-height:1.8;margin:0 0 36px;font-family:'Georgia',serif;">Nos alegra mucho que nos acompañes en este día tan especial. Aquí tienes los detalles del evento:</p>
 
           <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(201,168,76,0.3);border-radius:10px;overflow:hidden;margin-bottom:28px;">
             <tr style="background:rgba(201,168,76,0.05);">
@@ -110,7 +110,7 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <img src="https://josegrado.online/cap-gold.png?v=3" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
+            <img src="https://joke-grado.netlify.app/assets/cap-gold-96o5taoL.png" width="56" height="46" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Notificación · Admin</div>
           <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
@@ -129,9 +129,9 @@ export const handler = async (event: any) => {
           <div style="width:80px;height:1px;background:linear-gradient(90deg,transparent,#c9a84c,transparent);margin:22px auto 0;"></div>
         </td></tr>
         <tr><td style="padding:32px 44px;">
-          <p style="color:#c9a84c;font-size:10px;letter-spacing:5px;text-transform:uppercase;margin:0 0 6px;">Graduación · 29 Mayo 2026</p>
-          <p style="color:#f0e6c8;font-size:24px;margin:0 0 8px;font-style:italic;font-weight:400;">Ha confirmado su asistencia</p>
-          <p style="color:#8a7030;font-size:14px;line-height:1.8;margin:0 0 28px;font-family:'Georgia',serif;">Un nuevo invitado ha completado el formulario de confirmación.</p>
+          <p style="color:#c9a84c;font-size:10px;letter-spacing:5px;text-transform:uppercase;margin:0 0 14px;">Graduación · 29 Mayo 2026</p>
+          <p style="color:#f0e6c8;font-size:28px;margin:0 0 14px;font-style:italic;font-weight:400;">Ha confirmado su asistencia</p>
+          <p style="color:#8a7030;font-size:15px;line-height:1.8;margin:0 0 36px;font-family:'Georgia',serif;">Un nuevo invitado ha completado el formulario de confirmación.</p>
 
           <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(201,168,76,0.3);border-radius:10px;overflow:hidden;margin-bottom:28px;">
             <tr style="background:rgba(201,168,76,0.05);">
