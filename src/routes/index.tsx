@@ -1261,24 +1261,10 @@ function RsvpSection() {
     const rawPhone = celular.replace(/\D/g, "");
     const guestPhone = rawPhone.startsWith("57") ? rawPhone : `57${rawPhone}`;
 
-    // Mensaje para el INVITADO — formato rico WhatsApp (se abre automáticamente al confirmar)
-    const waToGuest = encodeURIComponent(
-[
-      `*CONFIRMACIÓN DE ASISTENCIA*`,
-      `――――――――――――――――――――`,
-      ``,
-      `Hola *${nombre.trim()}*, tu asistencia ha sido registrada.`,
-      ``,
-      `▪ *Evento:* Graduación de José Ángel Martínez`,
-      `▪ *Fecha:* 29 de mayo de 2026`,
-      `▪ *Hora:* 3:00 PM · Ceremonia de Grado`,
-      ``,
-      `▪ *Recepción:* Restaurante San Nicolás`,
-      `    7:00 P.M · Cra 56 # 72 - 128 (Baq)`,
-      ``,
-      `――――――――――――――――――――`,
-      `_Te esperamos con mucho gusto._`,
-    ].join("\n")
+    // Mensaje para el ADMIN — El invitado te enviará este mensaje al terminar
+    const WA_ADMIN = "573142296307";
+    const waToAdmin = encodeURIComponent(
+      `¡Hola José Ángel! Acabo de confirmar mi asistencia en tu página web. 🎉\n\nSoy *${fullName}*.\n¡Nos vemos en la graduación! 🎓`
     );
 
     // ── Enviar correos (Invitado y Admin) usando SendGrid vía Netlify Function ──
@@ -1321,13 +1307,11 @@ function RsvpSection() {
     setStatus("success");
 
     // ── Abrir WhatsApp Web para el INVITADO (confirmación manual) ────────
-    // WhatsApp no permite enviar mensajes automáticos a números no autorizados.
-    // Por eso abrimos wa.me con el mensaje pre-escrito; el usuario solo presiona "Enviar".
-    const waGuestLink = `https://wa.me/${guestPhone}?text=${waToGuest}`;
-    setWaLink(waGuestLink);
+    const waLinkFinal = `https://wa.me/${WA_ADMIN}?text=${waToAdmin}`;
+    setWaLink(waLinkFinal);
     
     setTimeout(() => {
-      window.location.href = waGuestLink;
+      window.location.href = waLinkFinal;
     }, 1500);
   };
 
