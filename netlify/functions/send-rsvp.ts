@@ -23,7 +23,12 @@ export const handler = async (event: any) => {
     const guestHtml = `
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+</head>
 <body style="margin:0;padding:0;background:#0a0906;font-family:'Georgia',serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#0a0906;padding:40px 16px;">
     <tr><td align="center">
@@ -90,7 +95,12 @@ export const handler = async (event: any) => {
     const adminHtml = `
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+</head>
 <body style="margin:0;padding:0;background:#0a0906;font-family:'Georgia',serif;">
   <table width="100%" cellpadding="0" cellspacing="0" style="background:#0a0906;padding:40px 16px;">
     <tr><td align="center">

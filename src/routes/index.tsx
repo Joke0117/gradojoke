@@ -1236,6 +1236,7 @@ function RsvpSection() {
   const [celular, setCelular] = useState("");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [waLink, setWaLink] = useState("");
   const [errorMsg, setErrorMsg] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -1323,9 +1324,11 @@ function RsvpSection() {
     // WhatsApp no permite enviar mensajes automáticos a números no autorizados.
     // Por eso abrimos wa.me con el mensaje pre-escrito; el usuario solo presiona "Enviar".
     const waGuestLink = `https://wa.me/${guestPhone}?text=${waToGuest}`;
+    setWaLink(waGuestLink);
+    
     setTimeout(() => {
-      window.open(waGuestLink, "_blank", "noopener,noreferrer");
-    }, 600);
+      window.location.href = waGuestLink;
+    }, 1500);
   };
 
   return (
@@ -1372,7 +1375,16 @@ function RsvpSection() {
                   <p className="font-serif-elegant italic text-foreground/75 text-lg mb-2">
                     {nombre} {apellido}, nos alegra mucho contar contigo.
                   </p>
-                  <Flourish className="mx-auto" />
+                  <Flourish className="mx-auto mb-6" />
+                  {waLink && (
+                    <a 
+                      href={waLink} 
+                      className="inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold tracking-wide transition-all"
+                      style={{ background: "linear-gradient(135deg, #c9a84c, #e8c96a)", color: "#0a0906" }}
+                    >
+                      Abrir comprobante en WhatsApp
+                    </a>
+                  )}
                 </div>
               ) : (
                 /* ── Formulario ── */
