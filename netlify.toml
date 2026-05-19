@@ -1,0 +1,12 @@
+[build]
+command = "npm run build"
+publish = "dist/client"
+
+[[redirects]]
+from = "/*"
+to = "/_shell.html"
+status = 200
+
+[dev]
+  targetPort = 8080
+  framework = "vite"
