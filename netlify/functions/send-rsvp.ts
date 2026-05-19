@@ -31,7 +31,7 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <img src="https://josegrado.online/cap-gold.png" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
+            <img src="https://josegrado.online/cap-gold.png?v=3" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Graduación · 29 Mayo 2026</div>
           <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
@@ -56,28 +56,28 @@ export const handler = async (event: any) => {
 
           <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(201,168,76,0.3);border-radius:10px;overflow:hidden;margin-bottom:28px;">
             <tr style="background:rgba(201,168,76,0.05);">
-              <td style="padding:14px 18px 14px 18px;border-bottom:1px solid rgba(201,168,76,0.12);">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Evento</span>
+              <td style="padding:22px 20px;border-bottom:1px solid rgba(201,168,76,0.12);">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Evento</span>
                 <span style="color:#f0e6c8;font-size:16px;font-family:'Georgia',serif;">Graduación de José Ángel Martínez</span>
               </td>
             </tr>
             <tr style="background:rgba(201,168,76,0.03);">
-              <td style="padding:14px 18px;border-bottom:1px solid rgba(201,168,76,0.12);">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Fecha</span>
+              <td style="padding:22px 20px;border-bottom:1px solid rgba(201,168,76,0.12);">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Fecha</span>
                 <span style="color:#f0e6c8;font-size:16px;font-family:'Georgia',serif;">29 de mayo de 2026 · 3:00 PM</span>
               </td>
             </tr>
             <tr style="background:rgba(201,168,76,0.05);">
-              <td style="padding:14px 18px;border-bottom:1px solid rgba(201,168,76,0.12);">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Ceremonia de Grado</span>
+              <td style="padding:22px 20px;border-bottom:1px solid rgba(201,168,76,0.12);">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Ceremonia de Grado</span>
                 <span style="color:#f0e6c8;font-size:15px;font-family:'Georgia',serif;">Universidad de la Costa — CUC</span>
               </td>
             </tr>
             <tr style="background:rgba(201,168,76,0.03);">
-              <td style="padding:14px 18px;">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Recepción</span>
+              <td style="padding:22px 20px;">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Recepción</span>
                 <span style="color:#f0e6c8;font-size:15px;font-family:'Georgia',serif;">Restaurante San Nicolás · 7:00 PM</span>
-                <span style="display:block;color:#8a7030;font-size:12px;margin-top:2px;font-family:Arial,sans-serif;">Cra 56 # 72 - 128, Barranquilla</span>
+                <a href="https://maps.google.com/?q=Cra+56+%23+72+-+128,+Barranquilla" style="display:block;color:#8a7030;font-size:12px;margin-top:6px;font-family:Arial,sans-serif;text-decoration:none;">Cra 56 # 72 - 128, Barranquilla</a>
               </td>
             </tr>
           </table>
@@ -110,7 +110,7 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <img src="https://josegrado.online/cap-gold.png" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
+            <img src="https://josegrado.online/cap-gold.png?v=3" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Notificación · Admin</div>
           <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
@@ -135,20 +135,20 @@ export const handler = async (event: any) => {
 
           <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid rgba(201,168,76,0.3);border-radius:10px;overflow:hidden;margin-bottom:28px;">
             <tr style="background:rgba(201,168,76,0.05);">
-              <td style="padding:14px 18px;border-bottom:1px solid rgba(201,168,76,0.12);">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Nombre</span>
+              <td style="padding:22px 20px;border-bottom:1px solid rgba(201,168,76,0.12);">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Nombre</span>
                 <span style="color:#f0e6c8;font-size:18px;font-family:'Georgia',serif;font-weight:600;">${fullName}</span>
               </td>
             </tr>
             <tr style="background:rgba(201,168,76,0.03);">
-              <td style="padding:14px 18px;border-bottom:1px solid rgba(201,168,76,0.12);">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Celular</span>
+              <td style="padding:22px 20px;border-bottom:1px solid rgba(201,168,76,0.12);">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Celular</span>
                 <a href="tel:${celular}" style="color:#f0e6c8;font-size:16px;font-family:'Georgia',serif;text-decoration:none;">${celular}</a>
               </td>
             </tr>
             <tr style="background:rgba(201,168,76,0.05);">
-              <td style="padding:14px 18px;">
-                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Correo</span>
+              <td style="padding:22px 20px;">
+                <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:6px;">Correo</span>
                 <a href="mailto:${email}" style="color:#f0e6c8;font-size:15px;font-family:Arial,sans-serif;text-decoration:none;">${email}</a>
               </td>
             </tr>
