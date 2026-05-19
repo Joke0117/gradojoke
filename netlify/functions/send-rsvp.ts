@@ -31,11 +31,7 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <svg width="52" height="40" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;">
-              <polygon points="12,1 23,7 12,13 1,7" fill="#c9a84c" opacity="0.9"/>
-              <path d="M6 9.5V14c0 0 2 2.5 6 2.5S18 14 18 14V9.5" stroke="#c9a84c" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
-              <line x1="23" y1="7" x2="23" y2="13" stroke="#c9a84c" stroke-width="1.4" stroke-linecap="round"/>
-            </svg>
+            <img src="https://josegrado.online/cap-gold.png" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Graduación · 29 Mayo 2026</div>
           <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
@@ -114,11 +110,7 @@ export const handler = async (event: any) => {
         <tr><td style="height:4px;background:linear-gradient(90deg,#7a5c1e,#e8c96a,#c9a84c,#e8c96a,#7a5c1e);"></td></tr>
         <tr><td align="center" style="padding:44px 40px 28px;background:#0f0d09;">
           <div style="margin-bottom:20px;">
-            <svg width="52" height="40" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;">
-              <polygon points="12,1 23,7 12,13 1,7" fill="#c9a84c" opacity="0.9"/>
-              <path d="M6 9.5V14c0 0 2 2.5 6 2.5S18 14 18 14V9.5" stroke="#c9a84c" stroke-width="1.4" fill="none" stroke-linejoin="round"/>
-              <line x1="23" y1="7" x2="23" y2="13" stroke="#c9a84c" stroke-width="1.4" stroke-linecap="round"/>
-            </svg>
+            <img src="https://josegrado.online/cap-gold.png" width="52" height="40" alt="Grado" style="display:block;margin:0 auto;object-fit:contain;border:none;outline:none;text-decoration:none;" />
           </div>
           <div style="font-size:10px;letter-spacing:7px;color:#c9a84c;text-transform:uppercase;margin-bottom:18px;">Notificación · Admin</div>
           <table cellpadding="0" cellspacing="0" align="center" style="margin-bottom:6px;">
@@ -151,13 +143,13 @@ export const handler = async (event: any) => {
             <tr style="background:rgba(201,168,76,0.03);">
               <td style="padding:14px 18px;border-bottom:1px solid rgba(201,168,76,0.12);">
                 <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Celular</span>
-                <span style="color:#f0e6c8;font-size:16px;font-family:'Georgia',serif;">${celular}</span>
+                <a href="tel:${celular}" style="color:#f0e6c8;font-size:16px;font-family:'Georgia',serif;text-decoration:none;">${celular}</a>
               </td>
             </tr>
             <tr style="background:rgba(201,168,76,0.05);">
               <td style="padding:14px 18px;">
                 <span style="display:block;font-size:9px;letter-spacing:3px;color:#c9a84c;text-transform:uppercase;margin-bottom:4px;">Correo</span>
-                <span style="color:#f0e6c8;font-size:15px;font-family:Arial,sans-serif;">${email}</span>
+                <a href="mailto:${email}" style="color:#f0e6c8;font-size:15px;font-family:Arial,sans-serif;text-decoration:none;">${email}</a>
               </td>
             </tr>
           </table>
@@ -181,14 +173,14 @@ export const handler = async (event: any) => {
     const msgGuest = {
       to: email,
       from: { email: FROM_EMAIL, name: 'José Ángel Martínez' },
-      subject: `✅ Asistencia confirmada — ${fullName}`,
+      subject: `Asistencia confirmada — ${fullName}`,
       html: guestHtml
     };
 
     const msgAdmin = {
       to: ADMIN_EMAIL,
       from: { email: FROM_EMAIL, name: 'RSVP Grado' },
-      subject: `🎉 Nueva confirmación — ${fullName}`,
+      subject: `Nueva confirmación — ${fullName}`,
       html: adminHtml,
       replyTo: email
     };
