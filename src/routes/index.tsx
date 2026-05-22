@@ -20,7 +20,7 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const EVENT_DATE = new Date("2026-05-29T15:00:00-05:00");
+const EVENT_DATE = new Date("2026-05-29T09:00:00-05:00");
 
 function useCountdown(target: Date) {
   const [t, setT] = useState({ d: 0, h: 0, m: 0, s: 0 });
@@ -481,7 +481,7 @@ function Invitation() {
                     <div className="mt-10 md:mt-14 space-y-3 md:space-y-4 max-w-xs mx-auto md:mx-0 w-full">
                       {[
                         { svg: <CalIcon />, label: "29 de Mayo de 2026" },
-                        { svg: <ClockIcon />, label: "3:00 PM · Ceremonia de Grado" },
+                        { svg: <ClockIcon />, label: "9:00 AM · Ceremonia de Grado" },
                         { svg: <PinIcon />, label: "Salón Jumbo del Country" },
                         { svg: <PinIcon />, label: "Calle 76 con Cra. 54 · Barranquilla" },
                       ].map((it, i) => (
